@@ -10,11 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.Toast;
-
-import static com.example.miguelangelrubiocaballero.newsappproject.ListNewsActivity.KEY_URL;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
@@ -53,14 +48,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 listNewsActivity();
 
                 break;
-            case R.id.nav_chat:
+            case R.id.nav_newspapers:
                 //getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                        // new NewsPapersFragment()).commit();
                 listNewsPaper();
                 break;
-            case R.id.nav_profile:
+            case R.id.nav_info:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new ProfileFragment()).commit();
+                        new InfoFragment()).commit();
                 break;
             case R.id.nav_send:
                 //Toast.makeText(this, "Send", Toast.LENGTH_SHORT).show();

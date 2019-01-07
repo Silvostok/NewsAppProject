@@ -25,19 +25,15 @@ public class NewsPaperAdapter extends RecyclerView.Adapter<NewsPaperAdapter.List
     }
 
 
-
     public NewsPaperAdapter(Context context, ArrayList<NewsPaperItem> newsPaperList){
         mContext = context;
         mNewsPaperList = newsPaperList;
-
         }
 
     @NonNull
     @Override
     public ListNewsPaperViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(mContext).inflate(R.layout.news_paper_item, viewGroup, false);
-
-
 
         return new ListNewsPaperViewHolder(v);
     }
@@ -50,11 +46,9 @@ public class NewsPaperAdapter extends RecyclerView.Adapter<NewsPaperAdapter.List
         String creatorDescription = currentItem.getmDescription();
         String creatorUrl = currentItem.getmUrl();
 
-
         listNewsPaperViewHolder.mTextViewName.setText(creatorName);
         listNewsPaperViewHolder.mTextViewDescription.setText(creatorDescription);
         listNewsPaperViewHolder.mTextViewUrl.setText(creatorUrl);
-
     }
 
     @Override
@@ -67,7 +61,6 @@ public class NewsPaperAdapter extends RecyclerView.Adapter<NewsPaperAdapter.List
         public TextView mTextViewName;
         public TextView mTextViewDescription;
         public TextView mTextViewUrl;
-
 
         public ListNewsPaperViewHolder(@NonNull View itemView) {
             super(itemView);

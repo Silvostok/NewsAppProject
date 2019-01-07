@@ -12,7 +12,6 @@ public class NewsPaperItem {
         this.mUrl = mUrl;
     }
 
-
     public String getmName() {
         return mName;
     }

@@ -13,12 +13,10 @@ import static com.example.miguelangelrubiocaballero.newsappproject.NewsPaper.EXT
 public class NewsPaperDetailActivity extends AppCompatActivity {
 
     ProgressBar loader;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news_paper_detail);
-
 
         Intent intent = getIntent();
 
