@@ -3,4 +3,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_send_feedback">SendFeedback</string>
+    <string name="newspapers_fragment">NewsPapers Fragment</string>
+    <string name="info">Info</string>
+    <string name="info_description">Retrieve latest news from the BBC from your Android phone. Also display a list of newspaper worldwide. Returns a list of news publishers that top headlines are available from.</string>
 </resources>

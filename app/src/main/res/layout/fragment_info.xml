@@ -22,7 +22,7 @@
         android:padding="16dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Info"
+        android:text="@string/info"
         android:textSize="20sp" />
 
     <TextView
@@ -33,7 +33,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginBottom="92dp"
         android:padding="16dp"
-        android:text="\n \nRetrieve latest news from the BBC from your Android phone. Also display a list of newspaper wordlwide. Returns a list of news publishers that top headlines are available from."
+        android:text="@string/info_description"
         android:textSize="18sp" />
 
 </RelativeLayout>
