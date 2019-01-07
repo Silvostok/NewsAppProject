@@ -44,7 +44,7 @@
                         android:maxLines="2"
                         android:scrollHorizontally="true"
                         android:ellipsize="end"
-                        android:text="This is news title"/>
+                        android:text="@string/this_is_news_title"/>
 
                     <TextView
                         android:id="@+id/sdetails"
@@ -56,7 +56,7 @@
                         android:minLines="2"
                         android:scrollHorizontally="true"
                         android:ellipsize="end"
-                        android:text="This is news description bla bla bla..."/>
+                        android:text="@string/this_is_news_description_bla_bla_bla"/>
 
 
 
@@ -80,7 +80,7 @@
                                 android:textColor="#42A5F5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="News Author"/>
+                                android:text="@string/news_author"/>
 
                         </LinearLayout>
 
@@ -92,7 +92,7 @@
                             android:textColor="#42A5F5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Time"/>
+                            android:text="@string/time"/>
                     </LinearLayout>
 
 

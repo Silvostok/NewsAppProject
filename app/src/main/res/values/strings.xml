@@ -11,4 +11,12 @@
     <string name="abc_news">ABC News</string>
     <string name="your_trusted_source_for_breaking_news_analysis_exclusive_interviews_headlines_and_videos_at_abcnews_com">Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com.</string>
     <string name="https_abcnews_go_com">https://abcnews.go.com</string>
+    <string name="to">To:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message:</string>
+    <string name="send">send</string>
+    <string name="this_is_news_title">This is news title</string>
+    <string name="this_is_news_description_bla_bla_bla">This is news description bla bla bla...</string>
+    <string name="news_author">News Author</string>
+    <string name="time">Time</string>
 </resources>

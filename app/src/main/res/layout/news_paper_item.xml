@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/abc_news"
-            android:textColor="@android:color/black"
+            android:textColor="@color/colorPrimary"
             android:textSize="20sp" />
 
         <TextView
