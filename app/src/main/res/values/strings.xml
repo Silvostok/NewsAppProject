@@ -6,4 +6,9 @@
     <string name="newspapers_fragment">NewsPapers Fragment</string>
     <string name="info">Info</string>
     <string name="info_description">Retrieve latest news from the BBC from your Android phone. Also display a list of newspaper worldwide. Returns a list of news publishers that top headlines are available from.</string>
+    <string name="info_newsapp_com">info@newsapp.com</string>
+    <string name="news_app">News app</string>
+    <string name="abc_news">ABC News</string>
+    <string name="your_trusted_source_for_breaking_news_analysis_exclusive_interviews_headlines_and_videos_at_abcnews_com">Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com.</string>
+    <string name="https_abcnews_go_com">https://abcnews.go.com</string>
 </resources>

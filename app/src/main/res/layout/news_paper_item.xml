@@ -12,12 +12,11 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-
         <TextView
             android:id="@+id/text_view_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ABC News"
+            android:text="@string/abc_news"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
@@ -25,13 +24,13 @@
             android:id="@+id/text_view_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com." />
+            android:text="@string/your_trusted_source_for_breaking_news_analysis_exclusive_interviews_headlines_and_videos_at_abcnews_com" />
 
         <TextView
             android:id="@+id/text_view_url"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="https://abcnews.go.com"/>
+            android:text="@string/https_abcnews_go_com"/>
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

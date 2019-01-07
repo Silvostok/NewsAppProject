@@ -41,7 +41,7 @@ public class NewsPaperAdapter extends RecyclerView.Adapter<NewsPaperAdapter.List
     @Override
     public void onBindViewHolder(@NonNull ListNewsPaperViewHolder listNewsPaperViewHolder, int i) {
         NewsPaperItem currentItem = mNewsPaperList.get(i);
-        //Problem??? wit name??
+
         String creatorName = currentItem.getmName();
         String creatorDescription = currentItem.getmDescription();
         String creatorUrl = currentItem.getmUrl();
