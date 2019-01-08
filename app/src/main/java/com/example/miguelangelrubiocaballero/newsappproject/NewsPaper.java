@@ -50,7 +50,7 @@ public class NewsPaper extends AppCompatActivity implements NewsPaperAdapter.OnI
 
     private void parseJSON() {
 
-        String url = "https://newsapi.org/v2/sources?apiKey=2e377f97e1f043d298b36e09314d9dfc";
+        String url = "https://newsapi.org/v2/sources?apiKey=XXX";
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {

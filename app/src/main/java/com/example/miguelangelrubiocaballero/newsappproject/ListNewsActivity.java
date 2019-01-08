@@ -23,7 +23,7 @@ import java.util.HashMap;
 public class ListNewsActivity extends AppCompatActivity {
 
 
-    String API_KEY = "2e377f97e1f043d298b36e09314d9dfc"; //### Miguel NEWS API HERE ###
+    String API_KEY = "XXXXXX"; //### Miguel NEWS API HERE ###
     String NEWS_SOURCE = "bbc-news";
     //String NEWS_SOURCE = "el-mundo";
     ListView listNews;
